@@ -1,0 +1,432 @@
+body {
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+  color: rgb(8, 8, 71);
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  padding-top: 30px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(10, 10, 85);
+}
+
+.nav-bar a:hover {
+  color: orange;
+  border: 1px none;
+  border-radius: 10px;
+  letter-spacing: 2px;
+}
+
+.first-nav {
+  padding-left: 100px;
+}
+
+.second-nav {
+  margin-left: 150px;
+}
+.second-nav a {
+  margin-right: 20px;
+}
+
+.nav-btn {
+  margin-left: 200px;
+}
+
+.nav-btn button {
+  width: 130%;
+  height: 50px;
+  border-radius: 50px;
+  border: none;
+  background-color: orange;
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(10, 10, 85);
+}
+
+.nav-btn button:hover {
+  letter-spacing: 2px;
+  background-color: rgb(26, 26, 158);
+  color: white;
+}
+
+.second-sec {
+  display: flex;
+  flex-direction: row;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+.second-sec h1 {
+  color: rgb(8, 8, 71);
+  font-size: 60px;
+}
+.second-sec p {
+  font-size: 20px;
+  color: rgb(15, 15, 116);
+  margin-bottom: 50px;
+}
+.second-sec button {
+  background-color: rgb(26, 26, 158);
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  font-size: 17px;
+  color: white;
+  font-weight: bold;
+  /* background-image: linear-gradient(to left, rgb(133, 207, 231) , rgb(27, 90, 153)); */
+}
+.second-sec button:hover {
+  background-color: orange;
+  color: black;
+  font-weight: bold;
+}
+.second-img {
+  margin-left: 150px;
+  margin-top: 50px;
+}
+
+/* SERVICES SECTION */
+.service {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.service p {
+  font-size: 20px;
+  font-weight: bold;
+}
+.service h1 {
+  font-size: 60px;
+}
+/* SERVICE SECTION END */
+
+/* SERVICE CARD START */
+.service-card {
+  display: flex;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.another {
+  margin-top: 80px;
+}
+
+.card-1 {
+  border: 1px solid none;
+  border-radius: 20px;
+  height: 400px;
+  width: 290px;
+  text-align: center;
+  margin-left: 50px;
+  margin-top: 50px;
+  border-radius: 30px;
+  box-shadow: 2px 2px 2px 2px rgb(223, 217, 217);
+  padding: 10px;
+}
+
+.card-1 button {
+  background-color: orange;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  font-size: 17px;
+  color: rgb(26, 26, 158);
+  font-weight: bold;
+  /* background-image: linear-gradient(to right, rgb(255, 153, 0) , white); */
+}
+
+.card-1 button:hover {
+  background-color: rgb(26, 26, 158);
+  color: white;
+}
+
+.card-1 img {
+  width: 50px;
+}
+
+/* SERVICE CARD END */
+
+/* TESTIMONIAL CONTAINER */
+.testimonial-reviews {
+  background-color: rgb(238, 249, 253);
+  padding-bottom: 50px;
+}
+
+.customer-say {
+  margin-left: 150px;
+  margin-top: 150px;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+.customer-say p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.customer-say h1 {
+  font-size: 60px;
+}
+
+.cust-img {
+  display: flex;
+  flex-direction: row;
+  margin-left: 300px;
+}
+
+.customer-say img {
+  margin-left: 100px;
+  margin-top: 180px;
+  width: 40px;
+  border: 2px solid;
+  border-radius: 50px;
+}
+.direction-1 img {
+  background-color: rgb(8, 8, 71);
+}
+.direction-2 img {
+  background-color: white;
+  border: none;
+}
+
+/* BEGINING OF REVIEW SECTION */
+.review-sec {
+  display: flex;
+  flex-direction: row;
+}
+
+.reviews-1 {
+  margin-top: 50px;
+  margin-left: 100px;
+  background-color: white;
+  width: 25%;
+  height: 300px;
+  padding-left: 40px;
+  padding-top: 20px;
+  box-shadow: 1px 1px 1px 1px rgb(233, 233, 233);
+  border: 1px none;
+  border-radius: 20px;
+}
+.reviews-2 {
+  margin-top: 50px;
+  margin-left: 50px;
+  background-color: white;
+  width: 25%;
+  height: 300px;
+  padding-left: 20px;
+  padding-top: 20px;
+  box-shadow: 1px 1px 1px 1px rgb(233, 233, 233);
+  border: 1px none;
+  border-radius: 20px;
+}
+.reviews-3 {
+  margin-top: 50px;
+  margin-left: 50px;
+  background-color: white;
+  width: 25%;
+  height: 300px;
+  padding-left: 20px;
+  padding-top: 20px;
+  box-shadow: 1px 1px 1px 1px rgb(233, 233, 233);
+  border: 1px none;
+  border-radius: 20px;
+}
+
+.reviews-customer img {
+  margin-right: 20px;
+  border: none;
+  border-radius: 80px;
+  width: 20%;
+}
+
+.reviews-customer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+
+.reviews-customer p {
+  font-weight: bold;
+}
+
+.position {
+  color: grey;
+}
+
+.review-icon {
+  margin-left: 20px;
+  margin-top: 30px;
+}
+/* END 0F REVIEW SECTION*/
+
+/* THE TEAM SECTION */
+.the-teamContainer {
+  text-align: center;
+  padding-top: 20px;
+}
+.the-teamContainer p {
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+.the-teamContainer h1 {
+  font-size: 50px;
+  margin-top: -10px;
+  margin-bottom: 80px;
+}
+
+.sub-team{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+.the-teamImage {
+  margin-left: 10%;
+}
+.the-teamImage img {
+  border: none;
+  border-radius: 80px;
+  width: 40%;
+  margin-left: 30px;
+}
+.stanley img {
+  width: 17%;
+}
+
+.chigozie {
+  margin-left: -20%;
+}
+
+.the-teamImage p {
+  font-weight: bold;
+  margin-left: -30px;
+  font-size: 20px;
+  /* margin-top: 30px; */
+  padding-bottom: 80px;
+}
+.the-team-span {
+  text-align: center;
+  color: rgb(240, 136, 0);
+  margin-left: 30px;
+  font-size: 15px;
+}
+
+.stanley span {
+margin-left: 60px;
+}
+
+.chidinma span {
+    margin-left: 80px;
+}
+
+
+/* SUBSCRIBE NEWLETTER SECTION */
+.newsletter {
+    box-shadow: 0px 2px 10px 5px rgb(221, 221, 221);
+    margin-bottom: 40px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.subscribe {
+    padding-top: 20px;
+    margin-left: 100px;
+    margin-right: 70px;
+}
+
+.subscribe h1 {
+  font-weight: bold;
+  font-size: 60px;
+}
+
+.subscribe p {
+    font-size: 20px;
+}
+
+.subscribe input {
+    width: 65%;
+    height: 65px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.subscribe-button {
+    margin-top: 30px;
+    background-color: rgb(26, 26, 158);
+    width: 150px;
+    height: 65px;
+    margin-left: -4px;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    border: none;
+}
+
+.subscribe-button:hover {
+    background-color: orange;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+/* END OF SUBSCRIBE NEWLETTER SECTION */
+
+
+/* FOOTER SECTION */
+.footer-container {
+    display: flex;flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgb(238, 249, 253);
+    padding-bottom: 80px;
+    margin-left: -50px;
+}
+.enterprise {
+    padding-right: 200px;
+}
+.enterprise p {
+    margin-bottom: 50px;
+}
+.socials {
+    display: flex;
+    flex-direction: row;
+}
+
+.instagram img {
+    border-radius: 120px;
+    width: 90%;
+    height: 42px;
+    margin-top: 3px;
+}
+
+.design li {
+    box-shadow: 0px 0px 2px;
+    text-align: center;
+    width: 100px;
+    border-radius: 5px;
+    margin-top: 20px;
+    list-style: none;
+    margin-right: 20px;
+    padding: 8px;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
+
+.design ul{
+    display: flex;
+    flex-direction: row;
+}
