@@ -1,38 +1,91 @@
 body {
-    font-family: sans-serif;
-    padding: 0;
-    margin: 0;
-    color: rgb(8, 8, 71);
-  }
-  
-  .nav-bar {
-    display: flex;
-    flex-direction: row;
-    padding-top: 30px;
-    font-size: 25px;
+  padding: 0;
+  margin: 0;
+  background-color: rgb(8, 8, 71);
+  color: white;
+  padding-bottom: 30px;
+  font-family: sans-serif;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  padding-top: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-bar a:hover {
+  color: orange;
+  border: 1px none;
+  border-radius: 10px;
+  letter-spacing: 2px;
+}
+
+.second-nav {
+  margin-bottom: 50px;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+.second-nav a {
+  margin-right: 50px;
+}
+
+.contact-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;  
+}
+
+.location {
+  background-color: white ;
+  color: rgb(255, 136, 0);
+  width: 15%;
+  box-shadow: -1px -1px 5px orangered;
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 20px;
+  height: 200px;
+  padding: 30px 10px 0px 10px;
+}
+
+.location img {
+  width: 15%;
+}
+
+.contact-form {
+  text-align: center;
+  margin-top: -50px;
+  background-color: white;
+  width: 50%;
+  padding-top: 100px;
+  margin-left: 350px;
+  padding-bottom: 30px;
+}
+
+.contact-form h1 {
+    color: rgb(255, 136, 0);
+}
+
+input {
+  width: 56%;
+  height: 30px;
+}
+
+button {
+    margin-top: 20px;
+    width: 25%;
+    height: 40px;
+    background-color: rgb(255, 136, 0);
+    border: none;
     font-weight: bold;
-  }
-  
-  a {
-    text-decoration: none;
-    color: rgb(10, 10, 85);
-  }
-  
-  .nav-bar a:hover {
-    color: orange;
-    border: 1px none;
-    border-radius: 10px;
-    letter-spacing: 2px;
-  }
-  
-  .first-nav {
-    padding-left: 100px;
-  }
-  
-  .second-nav {
-    margin-left: 150px;
-  }
-  .second-nav a {
-    margin-right: 20px;
-  }
-  
+    color: white;
+    border-radius: 5px;
+}
+
