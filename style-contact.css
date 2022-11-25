@@ -10,11 +10,18 @@ body {
 .nav-bar {
   display: flex;
   flex-direction: row;
-  padding-top: 30px;
+  padding-top: 50px;
   font-size: 20px;
   font-weight: bold;
   justify-content: center;
 }
+
+.enterprise {
+    margin-right: 150px;
+    margin-top: -10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 
 a {
   text-decoration: none;
@@ -31,7 +38,7 @@ a {
 .second-nav {
   margin-bottom: 50px;
   margin-top: 30px;
-  margin-left: 50px;
+  margin-left: 20px;
 }
 .second-nav a {
   margin-right: 50px;
