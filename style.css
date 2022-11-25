@@ -40,6 +40,9 @@ a {
   margin-left: 200px;
 }
 
+.nav-btn a {
+  text-decoration: none;
+}
 .nav-btn button {
   width: 130%;
   height: 50px;
@@ -305,6 +308,41 @@ a {
   width: 17%;
 }
 
+.team-contact-stanley {
+  display: flex;
+  flex-direction: row;
+  margin-left: 50px;
+}
+
+.team-contact-stanley a {
+margin-left: -80px;
+  width: 20%;
+  margin-top: -60px;
+}
+.team-contact-chigozie {
+  display: flex;
+  flex-direction: row;
+  margin-left: -40px;
+}
+
+.team-contact-chigozie a {
+  width: 16%;
+  margin-left: 5px;
+  margin-top: -60px;
+
+}
+.team-contact-chidinma {
+  display: flex;
+  flex-direction: row;
+  margin-left: -150px;
+  justify-content: center;
+}
+
+.team-contact-chidinma a {
+  width: 12%;
+  margin-top: -70px;
+}
+
 .chigozie {
   margin-left: -20%;
 }
@@ -336,7 +374,7 @@ margin-left: 60px;
 .newsletter {
     box-shadow: 0px 2px 10px 5px rgb(221, 221, 221);
     margin-bottom: 40px;
-    margin-top: 20px;
+    margin-top: 100px;
     display: flex;
     flex-direction: row;
 }
