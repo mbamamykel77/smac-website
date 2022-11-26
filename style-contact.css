@@ -96,3 +96,8 @@ button {
     border-radius: 5px;
 }
 
+button:hover {
+  letter-spacing: 2px;
+  background-color: rgb(26, 26, 158);
+  color: white;
+}
